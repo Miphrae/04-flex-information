@@ -1,0 +1,71 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.flowers {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.barberry {
+    display: flex;
+    flex-flow: column wrap;
+    margin-left: 200px;
+    max-width: 200px;
+}
+
+.chilli {
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 200px;
+
+}
+
+.pepper {
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 200px;
+}
+
+.saffron {
+    display: flex;
+    flex-flow: column wrap;
+    margin-right: 200px;
+    max-width: 200px;
+}
+
+.text {
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+/* do not edit this footer */
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eee;
+  }
+
+
+
